@@ -26,15 +26,17 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 
 #include <string>
 #include <AL/Config.h>
+#include <AL/al.h>
+#include <AL/alc.h>
 
 /* Forward declarations: */
 namespace Misc {
 class ConfigurationFileSection;
 }
 struct ALCdevice_struct;
-typedef struct ALCdevice_struct ALCdevice;
+// typedef struct ALCdevice_struct ALCdevice;
 struct ALCcontext_struct;
-typedef struct ALCcontext_struct ALCcontext;
+// typedef struct ALCcontext_struct ALCcontext;
 class ALContextData;
 namespace SceneGraph {
 class ALRenderState;
